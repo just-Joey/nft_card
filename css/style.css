@@ -1,0 +1,83 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+     
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+     background-color: hsl(217, 54%, 11%);
+     font-family: 'Outfit', sans-serif;;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.container {   
+     margin: 0 auto;
+     margin-top: 100px;
+     padding: 20px;
+     width: 325px;
+     height: 550px;
+     border-radius: 15px;;
+     background-color: hsl(216, 50%, 16%);
+     color: hsl(0, 0%, 100%);
+}
+
+img {
+     height: 275px;
+     width: 275px;
+     border-radius: 7px;
+}
+
+h2 {
+     font-weight: 400;
+}
+
+p {
+     font-size: 18px;
+     color: hsl(215, 51%, 70%);
+     font-weight: 300;
+}
+
+section {
+     border-bottom: 1px solid hsl(215, 32%, 27%);
+     padding-bottom: 20px;
+}
+
+.ethereum {
+     color: hsl(178, 100%, 50%);
+     margin-left: 5px;
+}
+
+.clock {
+     position: relative;
+     left: 85px;
+     top: 4px;
+}
+.time-left {
+     color: hsl(215, 51%, 70%);
+     margin-left: 90px;
+   
+}
+.bottom {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+
+.avatar {
+     height: 40px;
+     
+}
+
+.creator {
+     color: hsl(0, 0%, 100%);
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
